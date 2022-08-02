@@ -13,7 +13,10 @@ if data['locations']["Jabu Jabus Belly Barinade Heart Container"] == "Boomerang"
     possible = False
     impossible.append("One of the Barinade rewards is Boomerang")
 
-
+if data['locations']["Jabu Jabus Belly Map Chest"] == "Boomerang":
+    possible = False
+    impossible.append("Jabu Jabu Map Chest is Boomerang")
+    
 if data['locations']["Fire Temple Volvagia Heart Container"] == "Megaton Hammer" or data['locations']["Volvagia"] == "Megaton Hammer":
     possible = False
     impossible.append("One of the Volvagia rewards is Megaton Hammer")
